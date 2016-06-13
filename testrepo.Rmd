@@ -1,0 +1,14 @@
+---
+title: "testrepo"
+author: "Clinton Tippett"
+date: "June 10, 2016"
+output: word_document
+---
+
+```{r}
+category <- c('computer programming', 'math', 'statistics', 'machine learning', 'domain expertise', 'communication and presentation skills', 'data visualization')
+ranking <- c(3,3,2,1,1,4,1)
+clinton <- data.frame(category, ranking)
+str(clinton)
+clinton
+```
